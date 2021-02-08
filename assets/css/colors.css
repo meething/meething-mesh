@@ -1,0 +1,59 @@
+.theme-meething {
+    /* Basics */
+    --color-primary-text: #FFF;
+    --color-bg: #28232f;
+    --color-bg-transparant: #473761bb;
+    --color-bg-shadow: #14101bbb;
+    --color-button: #673ab7;
+    --logo-url: url('https://i.imgur.com/XS79fTC.png');
+    /* Top menu */
+    --color-top-menu-button-bg: #14101bbb;
+    --color-top-menu-button-hover: #14101bbb;
+    /* Start */
+    --color-selfview: #3e323f;
+    --color-options: #342835;
+    --color-source-buttons: #f0f0f033;
+    --color-bg-slider-buttons: #CCC;
+    --color-slider-buttons-checked: #2196F3;
+    --color-slider-buttons-disabled: #F00;
+    /* Chat */
+    --color-msg-send-bg: #ffffffda;
+    --color-msg-send-text: #474747;
+    --color-msg-shadow-text: #b9b9b9;
+    --color-msg-received-bg: #d7f7c5;
+    /* Remote videos */
+    --color-remote-video-bg: #14101bbb;
+    --color-remote-widget-button: #3f069c;
+    /* Notification colors */
+    --color-bg-warning: #de0046;
+}
+
+.theme-alternative {
+    /* Basics */
+    --color-primary-text: #000;
+    --color-bg: #d7dcd0;
+    --color-bg-transparant: #473761bb;
+    --color-bg-shadow: #14101bbb;
+    --color-button: #98c548;
+    --logo-url: url('https://i.imgur.com/XS79fTC.png');
+    /* Top menu */
+    --color-top-menu-button-bg: #14101bbb;
+    --color-top-menu-button-hover: #14101bbb;
+    /* Start */
+    --color-selfview: #c1cdc0;
+    --color-options: #CBD7CA;
+    --color-source-buttons: #f0f0f033;
+    --color-bg-slider-buttons: #333;
+    --color-slider-buttons-checked: #DE690C;
+    --color-slider-buttons-disabled: #0FF;
+    /* Chat */
+    --color-msg-send-bg: #ffffffda;
+    --color-msg-send-text: #474747;
+    --color-msg-shadow-text: #b9b9b9;
+    --color-msg-received-bg: #d7f7c5;
+    /* Remote videos */
+    --color-remote-video-bg: #14101bbb;
+    --color-remote-widget-button: #3f069c;
+    /* Notification colors */
+    --color-bg-warning: #de0046;
+}
