@@ -1,5 +1,8 @@
 <img src="https://i.imgur.com/XS79fTC.png" align="right" width=200> <img align="right" width="100" alt="mozilla-builders" src="https://user-images.githubusercontent.com/1423657/81992335-85346480-9643-11ea-8754-8275e98e06bc.png">
 
+<img src="assets/images/meething_light_mode.png" align="left" width=200>
+<img src="assets/images/meething_dark_mode.png" align="left" width=200>
+
 # Meething-Mesh
 Personalized video conferencing mesh in less than 5 minutes.
 
