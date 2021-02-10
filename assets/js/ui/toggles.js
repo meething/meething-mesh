@@ -143,12 +143,10 @@ export default class Toggles {
             });
 
             pipVideo.addEventListener('enterpictureinpicture', function(event) {
-                togglePip.classList.add("text-success");
                 togglePip.classList.remove("text-white");
             });
 
             pipVideo.addEventListener('leavepictureinpicture', function(event) {
-                togglePip.classList.add("text-white");
                 togglePip.classList.remove("text-success");
             });
         }
