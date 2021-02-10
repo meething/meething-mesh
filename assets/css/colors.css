@@ -16,44 +16,44 @@
     --color-source-buttons: #b1accb;
     --color-bg-slider-buttons: #CCC;
     --color-slider-buttons-checked: #2196F3;
-    --color-slider-buttons-disabled: #F00;
+    --color-slider-buttons-disabled: #eb5757;
     /* Chat */
     --color-msg-send-bg: #ffffffda;
     --color-msg-send-text: #474747;
     --color-msg-received-bg: #d7f7c5;
     /* Remote videos */
     --color-remote-video-bg: #FFF;
-    --color-remote-widget-button: #f1eef8;
+    --color-remote-widget-button: #b1accb;
     /* Notification colors */
-    --color-bg-warning: #de0046;
+    --color-bg-warning: #eb5757;
 }
 
 .theme-alternative {
     /* Basics */
-    --color-primary-text: #000;
-    --color-bg: #d7dcd0;
-    --color-bg-transparant: #473761bb;
-    --color-bg-shadow: #14101bbb;
-    --color-button: #98c548;
+    --color-primary-text: #FFF;
+    --color-bg: #1d102a;
+    --color-bg-transparant: #1d102abb;
+    --color-bg-shadow: #000000FF;
+    --color-button: #473160;
     --color-shadow-text: #b9b9b9;
-    --logo-url: url('https://i.imgur.com/XS79fTC.png');
+    --logo-url: url('https://i.imgur.com/sWCLPcn.png');
     /* Top menu */
-    --color-top-menu-button-bg: #14101bbb;
-    --color-top-menu-button-hover: #14101bbb;
+    --color-top-menu-button-bg: #b1accb;
+    --color-top-menu-button-hover: #b1accb;
     /* Start */
-    --color-selfview: #c1cdc0;
-    --color-options: #CBD7CA;
-    --color-source-buttons: #f0f0f033;
-    --color-bg-slider-buttons: #333;
-    --color-slider-buttons-checked: #DE690C;
-    --color-slider-buttons-disabled: #0FF;
+    --color-selfview: #1d102a;
+    --color-options: #473160;
+    --color-source-buttons: #b1accb;
+    --color-bg-slider-buttons: #CCC;
+    --color-slider-buttons-checked: #2196F3;
+    --color-slider-buttons-disabled: #eb5757;
     /* Chat */
-    --color-msg-send-bg: #ffffffda;
+    --color-msg-send-bg: #1d102ada;
     --color-msg-send-text: #474747;
     --color-msg-received-bg: #d7f7c5;
     /* Remote videos */
-    --color-remote-video-bg: #14101bbb;
-    --color-remote-widget-button: #3f069c;
+    --color-remote-video-bg: #1d102a;
+    --color-remote-widget-button: #473160;
     /* Notification colors */
-    --color-bg-warning: #de0046;
+    --color-bg-warning: #eb5757;
 }

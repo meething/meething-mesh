@@ -436,11 +436,16 @@ meter {
     z-index: 1000;
     box-shadow: 3px 3px 8px var(--color-bg-shadow);
     margin-bottom: 10px;
+    background-color: var(--color-button);
 }
 
 #bottom-menu button:hover {
     border-color: orange;
     color: orange;
+}
+
+.btn {
+    color: var(--color-primary-text);
 }
 
 #top-menu {
