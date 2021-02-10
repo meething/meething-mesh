@@ -4,9 +4,9 @@ body {
     overflow-y: auto;
     background-repeat: no-repeat;
     background-image: var(--logo-url);
-    background-size: 300px 300px;
+    background-size: 100px 100px;
     background-attachment: fixed;
-    background-position: bottom right;
+    background-position: bottom left;
 }
 
 
@@ -171,7 +171,7 @@ a​:hover {
     font-size: 12px;
     background: var(--color-msg-send-bg) !important;
     color: var(--color-msg-send-text);
-    text-shadow: 1px 1px 2px var(--color-msg-shadow-text);
+    text-shadow: 1px 1px 2px var(--color-shadow-text);
     padding: 10px;
 }
 
@@ -290,7 +290,7 @@ a​:hover {
 
 .top-widget-toolbox #close-video-button,
 .top-widget-toolbox #full-screen-button {
-    background: black;
+    background: var(--color-remote-widget-button);
     cursor: pointer;
     pointer-events: auto;
 }
@@ -311,12 +311,11 @@ a​:hover {
     background: none;
     margin-right: 3px;
     color: var(--color-primary-text);
-    ;
     transition: 0.5s all;
     margin: 5px;
     margin-bottom: 10px;
     background: var(--color-remote-widget-button);
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px var(--color-shadow-text);
     border-radius: 0px 6px 6px 0px;
     pointer-events: none;
 }
@@ -431,11 +430,11 @@ meter {
     border-radius: 10px;
     padding: 10px;
     margin: 5px 10px;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 1px 1px 2px var(--color-shadow-text);
     transition: 0.5s all;
     position: relative;
     z-index: 1000;
-    box-shadow: 3px 3px 8px black;
+    box-shadow: 3px 3px 8px var(--color-bg-shadow);
     margin-bottom: 10px;
 }
 
@@ -494,14 +493,13 @@ meter {
     top: 60px;
     background: var(--color-bg-warning);
     color: var(--color-primary-text);
-    ;
     padding: 5px 10px;
     font-size: 14px;
     font-weight: bold;
     border-radius: 6px;
     transition: .5s all;
-    box-shadow: 3px 3px 8px black;
-    text-shadow: 1px 1px 2px black;
+    box-shadow: 3px 3px 8px var(--color-bg-shadow);
+    text-shadow: var(--color-shadow-text)
 }
 
 
@@ -539,7 +537,7 @@ meter {
 }
 
 .noBoShadow {
-    box-shadow: 7px 0px 8px black;
+    box-shadow: 7px 0px 8px var(--color-bg-shadow);
 }
 
 .selfview-container {
@@ -631,7 +629,7 @@ meter {
     position: absolute;
     right: -54px;
     bottom: 0px;
-    box-shadow: 7px 7px 20px black;
+    box-shadow: 7px 7px 20px var(--color-bg-shadow);
 }
 
 
@@ -928,7 +926,7 @@ li {
         position: absolute;
         right: 0px;
         bottom: 0px;
-        box-shadow: 7px 7px 20px black;
+        box-shadow: 7px 7px 20px var(--color-bg-shadow);
     }
     #feedback {
         position: fixed;
